@@ -1,0 +1,14 @@
+services:
+  project-zomboid-server-docker-arm64:
+    build: .
+    container_name: project-zomboid-server
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Seoul
+      SERVERNAME: servertest
+    ports:
+      - '16261:16261/udp'
+      - '16262:16262/udp'
+    volumes:
+      - ./data:/home/steam/Zomboid
+      - ./workshop:/home/steam/pzserver/steamapps/workshop

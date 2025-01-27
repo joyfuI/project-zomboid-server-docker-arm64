@@ -1,2 +1,3 @@
 # project-zomboid-server-docker-arm64
-Project Zomboid Dedicated Server Docker Image for ARM64
+
+ARM64 용 프로젝트 좀보이드 서버 도커 이미지
