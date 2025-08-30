@@ -2,6 +2,8 @@
 
 ARM64 용 프로젝트 좀보이드 서버 도커 이미지
 
+관련 잡담은 [https://blog.joyfui.com/1295](https://blog.joyfui.com/1295)
+
 ### 사용법
 
 ```bash
